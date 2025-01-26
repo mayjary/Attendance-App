@@ -23,7 +23,7 @@ export default function BarcodeScanner() {
       } else {
         toast({
           title: "Attendance marked",
-          description: `Student with roll number ${rollNumber} has been marked present.`,
+          description: `Student with roll number ${rollNumber} has been marked late.`,
         })
       }
       setRollNumber("")
